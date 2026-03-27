@@ -1,16 +1,63 @@
-# React + Vite
+# Recharts Demo 📊
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+โปรเจกต์ตัวอย่างสำหรับแสดงกราฟประเภทต่าง ๆ ด้วย **Recharts** บน **React + Vite**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## กราฟที่มีในโปรเจกต์นี้
 
-## React Compiler
+| กราฟ | ไฟล์ | ข้อมูลที่ใช้ |
+|------|------|-------------|
+| Line Chart | `LineChartDemo.jsx` | ยอดขายและรายได้รายเดือน |
+| Bar Chart | `BarChartDemo.jsx` | ผลงานแต่ละแผนกแบ่งตามไตรมาส |
+| Pie Chart | `PieChartDemo.jsx` | ส่วนแบ่งตลาดของสินค้า |
+| Area Chart | `AreaChartDemo.jsx` | ยอดขายและรายได้รายเดือน (แบบพื้นที่) |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## โครงสร้างโปรเจกต์
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+recharts-demo/
+├── src/
+│   ├── data/
+│   │   └── sampleData.js       ← ข้อมูล Mock สำหรับกราฟทั้งหมด
+│   ├── components/
+│   │   ├── LineChartDemo.jsx
+│   │   ├── BarChartDemo.jsx
+│   │   ├── PieChartDemo.jsx
+│   │   └── AreaChartDemo.jsx
+│   └── App.jsx                 ← หน้าหลักที่รวมกราฟทั้งหมด
+```
+
+---
+
+## วิธีติดตั้งและรัน
+
+### 1. ติดตั้ง dependencies
+
+```bash
+npm install
+```
+
+### 2. รันในโหมด Development
+
+```bash
+npm run dev
+```
+
+จากนั้นเปิดเบราว์เซอร์ที่ `http://localhost:5173`
+
+### 3. Build สำหรับ Production
+
+```bash
+npm run build
+```
+
+---
+
+## เทคโนโลยีที่ใช้
+
+- [React](https://react.dev/) — UI Library
+- [Vite](https://vite.dev/) — Build Tool
+- [Recharts](https://recharts.org/) — ไลบรารีสำหรับวาดกราฟ
