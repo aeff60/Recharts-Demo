@@ -5,7 +5,7 @@ import {
 } from "recharts";
 import { categoryData } from "../data/sampleData";
 
-const COLORS = ["#ffc000", "#cc9a00", "#ffd44d", "#1a1d2e"];
+const COLORS = ["#0ea5e9", "#0369a1", "#7dd3fc", "#1a1d2e"];
 
 const CustomTooltip = ({ active, payload }) => {
   if (!active || !payload?.length) return null;
@@ -30,7 +30,7 @@ export default function PieChartDemo() {
   return (
     <>
       <div className="chart-header">
-        <div className="chart-header-accent" style={{ background: "#ffc000" }} />
+        <div className="chart-header-accent" style={{ background: "#0ea5e9" }} />
         <div>
           <p className="chart-title">🥧 สัดส่วนตามหมวดหมู่</p>
           <p className="chart-subtitle">Donut chart — แบ่งตาม Tech Stack</p>

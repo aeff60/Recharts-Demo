@@ -30,7 +30,7 @@ export default function LineChartDemo() {
   return (
     <>
       <div className="chart-header">
-        <div className="chart-header-accent" style={{ background: "#ffc000" }} />
+        <div className="chart-header-accent" style={{ background: "#0ea5e9" }} />
         <div>
           <p className="chart-title">📈 ยอดขายรายเดือน</p>
           <p className="chart-subtitle">Sales & Users trend — 7 เดือนล่าสุด</p>
@@ -52,10 +52,10 @@ export default function LineChartDemo() {
             <Line
               type="monotone"
               dataKey="sales"
-              stroke="#ffc000"
+              stroke="#0ea5e9"
               strokeWidth={2.5}
-              dot={{ r: 4, fill: "#ffc000", strokeWidth: 0 }}
-              activeDot={{ r: 7, fill: "#ffc000" }}
+              dot={{ r: 4, fill: "#0ea5e9", strokeWidth: 0 }}
+              activeDot={{ r: 7, fill: "#0ea5e9" }}
             />
             <Line
               type="monotone"

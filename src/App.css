@@ -7,29 +7,29 @@
 
 /* ── Header banner ───────────────────────────────── */
 .dashboard-header {
-  background: linear-gradient(135deg, #ffc000 0%, #ffaa00 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
   border-radius: var(--radius-lg);
   padding: 28px 32px;
-  color: #1a1d2e;
+  color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 16px;
-  box-shadow: 0 4px 24px rgba(255,192,0,.30);
+  box-shadow: 0 4px 24px rgba(14,165,233,.30);
 }
 
 .dashboard-header h1 {
   font-size: 22px;
   font-weight: 700;
-  color: #1a1d2e;
+  color: #ffffff;
   letter-spacing: -0.4px;
   margin-bottom: 4px;
 }
 
 .dashboard-header p {
   font-size: 13px;
-  color: #1a1d2e;
-  opacity: 0.72;
+  color: #ffffff;
+  opacity: 0.85;
 }
 
 .dashboard-badge {
@@ -41,7 +41,7 @@
   font-size: 13px;
   font-weight: 700;
   white-space: nowrap;
-  color: #1a1d2e;
+  color: #ffffff;
 }
 
 /* ── Stats row ───────────────────────────────────── */

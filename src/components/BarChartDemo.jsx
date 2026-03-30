@@ -30,7 +30,7 @@ export default function BarChartDemo() {
   return (
     <>
       <div className="chart-header">
-        <div className="chart-header-accent" style={{ background: "#ffc000" }} />
+        <div className="chart-header-accent" style={{ background: "#0ea5e9" }} />
         <div>
           <p className="chart-title">📊 Sales vs Revenue</p>
           <p className="chart-subtitle">เปรียบเทียบยอดขายและรายได้รายเดือน</p>
@@ -49,8 +49,8 @@ export default function BarChartDemo() {
               wrapperStyle={{ fontSize: 12, paddingTop: 8 }}
               formatter={(v) => v === "sales" ? "ยอดขาย" : "Revenue"}
             />
-            <Bar dataKey="sales"   fill="#ffc000" radius={[6, 6, 0, 0]} />
-            <Bar dataKey="revenue" fill="#cc9a00" radius={[6, 6, 0, 0]} />
+            <Bar dataKey="sales"   fill="#0ea5e9" radius={[6, 6, 0, 0]} />
+            <Bar dataKey="revenue" fill="#0369a1" radius={[6, 6, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </div>
