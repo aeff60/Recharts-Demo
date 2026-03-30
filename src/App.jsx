@@ -12,7 +12,7 @@ const STATS = [
     unit: "บาท",
     change: "+12.5%",
     up: true,
-    color: "#ffc000",
+    color: "#0ea5e9",
   },
   {
     icon: "💰",
@@ -21,7 +21,7 @@ const STATS = [
     unit: "บาท",
     change: "+8.2%",
     up: true,
-    color: "#cc9a00",
+    color: "#0369a1",
   },
   {
     icon: "👥",
@@ -30,7 +30,7 @@ const STATS = [
     unit: "คน",
     change: "+23.1%",
     up: true,
-    color: "#ffd44d",
+    color: "#7dd3fc",
   },
   {
     icon: "📊",

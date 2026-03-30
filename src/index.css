@@ -3,13 +3,13 @@
 }
 
 :root {
-  --primary:        #ffc000;
-  --primary-light:  #ffd44d;
-  --primary-dark:   #cc9a00;
+  --primary:        #0ea5e9;
+  --primary-light:  #7dd3fc;
+  --primary-dark:   #0369a1;
   --teal:           #38bdf8;
   --emerald:        #34d399;
   --coral:          #fb7185;
-  --amber:          #ffc000;
+  --sky:            #0ea5e9;
 
   --bg-app:         #f0f3fa;
   --bg-card:        #ffffff;

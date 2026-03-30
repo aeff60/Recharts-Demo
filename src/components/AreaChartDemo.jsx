@@ -30,7 +30,7 @@ export default function AreaChartDemo() {
   return (
     <>
       <div className="chart-header">
-        <div className="chart-header-accent" style={{ background: "#ffc000" }} />
+        <div className="chart-header-accent" style={{ background: "#0ea5e9" }} />
         <div>
           <p className="chart-title">🌊 ปริมาณ Users สะสม</p>
           <p className="chart-subtitle">จำนวน Active Users รายเดือน</p>
@@ -41,8 +41,8 @@ export default function AreaChartDemo() {
           <AreaChart data={monthlyData} margin={{ top: 8, right: 16, left: -8, bottom: 0 }}>
             <defs>
               <linearGradient id="colorUsers" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="5%"  stopColor="#ffc000" stopOpacity={0.25} />
-                <stop offset="95%" stopColor="#ffc000" stopOpacity={0} />
+                <stop offset="5%"  stopColor="#0ea5e9" stopOpacity={0.25} />
+                <stop offset="95%" stopColor="#0ea5e9" stopOpacity={0} />
               </linearGradient>
             </defs>
             <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" />
@@ -58,10 +58,10 @@ export default function AreaChartDemo() {
             <Area
               type="monotone"
               dataKey="users"
-              stroke="#ffc000"
+              stroke="#0ea5e9"
               strokeWidth={2.5}
               fill="url(#colorUsers)"
-              dot={{ r: 4, fill: "#ffc000", strokeWidth: 0 }}
+              dot={{ r: 4, fill: "#0ea5e9", strokeWidth: 0 }}
               activeDot={{ r: 7 }}
             />
           </AreaChart>
